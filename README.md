@@ -1,5 +1,4 @@
 # universities-of-the-world
-  >made with ❤ by chihab
   
  Plug-in used.
 
@@ -7,3 +6,8 @@
     -rxjs "~6.5.4",
     -amcharts/amcharts4  "^4.9.33",
     -amcharts/amcharts4-geodata "^4.1.16",
+    
+    
+    
+    
+  >made with ❤ by chihab
