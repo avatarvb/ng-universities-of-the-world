@@ -1,6 +1,6 @@
 # universities-of-the-world
 
-# How to enjoy this small experience!
+## How to enjoy this small experience!
 
   - dowload this link : https://github.com/avatarvb/ng-universities-of-the-world
   - Run npm install
