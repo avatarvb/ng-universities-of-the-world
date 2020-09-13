@@ -1,4 +1,10 @@
 # universities-of-the-world
+
+# How to enjoy with this small experience!
+
+  - dowload this link : https://github.com/avatarvb/ng-universities-of-the-world
+  - Run npm install
+  That's All    😁
   
  Plug-in used.
 
