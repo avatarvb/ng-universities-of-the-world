@@ -1,0 +1,10 @@
+#chartdiv {
+  width: 100vw !important;
+  height: 70vh;
+  margin: auto auto !important;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff !important;
+  box-shadow: 1px 2px 3px #eee;
+
+}

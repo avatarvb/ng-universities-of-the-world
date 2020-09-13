@@ -1,0 +1,20 @@
+.card {
+  box-shadow: 3px 3px 2px #eee;
+}
+
+
+.logo {
+  height: 130px;
+  width: 120px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.logo img {
+  margin-top: 5px;
+  height: 120px;
+  width: 120px;
+  border-left: 1px solid #eee;
+}

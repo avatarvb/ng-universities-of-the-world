@@ -1,0 +1,88 @@
+.navbar {
+  height: 100px;
+  color: #4F5561 !important;
+  margin-bottom: 50px;
+}
+
+.search {
+  width: 50%;
+}
+
+.search .form-group {
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+}
+
+.search .form-group .form-icon {
+  color: #4F5561 !important;
+  margin-left: 20px;
+  height: 50px;
+  width: 30px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.search .form-group input {
+  height: 50px;
+  border-radius: 50px;
+  text-indent: 30px;
+  box-shadow: 1px 2px 3px #eee;
+}
+
+
+.list-autocomplate {
+  /* display: none; */
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  height: 500px;
+  overflow-y: scroll;
+  box-shadow: 1px 1px 3px #999;
+  padding-top: 5px;
+
+}
+
+/* .ng-untouched,
+.input-container,
+.suggestions-container */
+
+
+#keywords {
+  width: 100px;
+  height: 40px;
+  box-shadow: 1px 1px 3px #999;
+  border: 1px solid #eee !important;
+}
+
+.ng-autocomplete {
+  width: 40vw;
+}
+
+
+
+.ng-autocomplete img {
+  margin: 10px;
+  height: 25px !important;
+  width: 40px;
+}
+
+.ng-autocomplete p {
+  margin: 10px;
+  width: 40%;
+  height: 25px;
+  float: left;
+}
+
+.ng-autocompletespan {
+  width: 50%;
+  /* display: block; */
+}
+
+.ng-autocomplete .population {
+  /* margin-left: 20px; */
+  float: right;
+  display: block;
+  width: auto;
+  height: 25px;
+}

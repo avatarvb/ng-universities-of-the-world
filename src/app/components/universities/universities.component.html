@@ -1,0 +1,54 @@
+<!-- <p>universities works! {{ listUniversities | json }}</p> -->
+
+
+
+
+<ul class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a routerLink="/map">Map</a>
+  </li>
+  <li class="breadcrumb-item">
+    <a>universities of {{country_name}} <sup class="label">{{listUniversities.length}} items</sup></a>
+  </li>
+</ul>
+
+
+
+<div class="div-loading" *ngIf="isloading">
+  <app-spinner></app-spinner>
+</div>
+
+<div [@listAnimation] *ngIf="listUniversities.length > 0">
+  <div class="columns" *ngIf="!isloading">
+    <div class="column col-6" *ngFor="let universitie of listUniversities; let i = index">
+      <div class="card ">
+        <div class="card-header">
+          <div class="card-title h5">{{universitie.name}}</div>
+          <a href="{{universitie.web_pages[0]}}" target="_blank"
+            class="card-subtitle text-gray">{{universitie.web_pages}}</a>
+        </div>
+        <div class="card-body">
+          <div class="label">{{universitie.alpha_two_code}}</div>
+          <div class="logo" title="{{universitie.name}} logo">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0533%2F2089%2Ffiles%2Fplaceholder-images-image_large.png%3Fv%3D1530129081&f=1&nofb=1"
+              alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="empty" *ngIf="listUniversities.length == 0 && !isloading">
+  <div class="empty-icon">
+    <i class="zmdi  zmdi-hc-5x zmdi-search-replace"></i>
+  </div>
+  <p class="empty-title h5">oops no result for {{country_name}} universities</p>
+  <p class="empty-subtitle">Click the button to start a new search.</p>
+  <div class="empty-action">
+    <a routerLink="/map" class="btn btn-primary">Go to map</a>
+  </div>
+</div>

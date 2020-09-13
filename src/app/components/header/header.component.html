@@ -1,0 +1,37 @@
+<header class="navbar">
+  <section class="navbar-section">
+  </section>
+  <section class="navbar-center search">
+    <select name="keywords" id="keywords" class="form-select" [(ngModel)]="keyword">
+      <option value="" *ngFor="let item of keywords" [value]="item">{{item}} </option>
+    </select>
+
+    <div class="ng-autocomplete">
+      <ng-autocomplete [data]="data$ | async" [searchKeyword]="keyword" [itemTemplate]="itemTemplate"
+        [notFoundTemplate]="notFoundTemplate" (selected)='selectEvent($event)' (inputFocused)='onFocused($event)'
+        placeholder="Choose your country">
+      </ng-autocomplete>
+
+      <ng-template #itemTemplate let-item>
+        <img [src]="item.flag" [alt]="item.flag">
+        <p [innerHTML]="item.name"></p>
+        <p class="population ">
+          <small class="label">
+            <i class="zmdi zmdi-balance"></i> capital : {{item.capital}}
+            <i class="zmdi zmdi-accounts-alt"></i> population : {{item.population}}
+          </small>
+        </p>
+      </ng-template>
+
+      <ng-template #notFoundTemplate let-notFound>
+        <div [innerHTML]="notFound"></div>
+      </ng-template>
+    </div>
+
+    <!-- </div> -->
+  </section>
+  <section class="navbar-section copy">
+    <a href="#" class="btn btn-link">made with <i
+        class="zmdi zmdi-favorite animated infinite pulse zmdi-hc-fw mdc-text-red"></i> by chihab</a>
+  </section>
+</header>
