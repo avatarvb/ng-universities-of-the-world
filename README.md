@@ -20,8 +20,8 @@
     - http://universities.hipolabs.com/search?country=Morocco
     
  ### Demo : 
-    [universities-of-the-world](https://www.awesomescreenshot.com/video/953427?key=4697182cfa4e87565c75d890116bc57c)
-      
+      <(https://www.awesomescreenshot.com/video/953427?key=4697182cfa4e87565c75d890116bc57c>
+
     
 ![image](https://github.com/avatarvb/ng-universities-of-the-world/blob/master/UniversitiesOfTheWorld.png)
 
