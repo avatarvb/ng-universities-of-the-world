@@ -4,7 +4,8 @@
 
   - dowload this link : https://github.com/avatarvb/ng-universities-of-the-world
   - Run npm install
-  That's All    😁
+  
+  >That's All    😁
   
  Plug-in used.
 
