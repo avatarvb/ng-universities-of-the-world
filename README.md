@@ -15,7 +15,7 @@
     -amcharts/amcharts4-geodata "^4.1.16",
     
     
-![alt text](https://github.com/avatarvb/ng-universities-of-the-world/master/UniversitiesOfTheWorld.png?raw=true)
+![universities-of-the-world](https://github.com/avatarvb/ng-universities-of-the-world/master/UniversitiesOfTheWorld.jpg?raw=true)
 
     
   >made with ❤ by chihab
