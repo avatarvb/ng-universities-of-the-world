@@ -15,6 +15,7 @@
     -amcharts/amcharts4-geodata "^4.1.16",
     
     
-    
+    ![Alt text](relative/path/to/img.jpg?raw=true "Title")
+
     
   >made with ❤ by chihab
