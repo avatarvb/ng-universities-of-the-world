@@ -9,15 +9,15 @@
   
   #### Plug-in used.
 
-    -ng-multiselect-dropdown-angular7 : __^0.1.5 __,
-    -rxjs "~6.5.4",
-    -amcharts/amcharts4  __^4.9.33__ ,
-    -amcharts/amcharts4-geodata __^4.1.16__ ,
+    - ng-multiselect-dropdown-angular7 : __^0.1.5 __,
+    - rxjs "~6.5.4",
+    - amcharts/amcharts4  __^4.9.33__ ,
+    - amcharts/amcharts4-geodata __^4.1.16__ ,
     
   #### API used.
 
-    > https://restcountries.eu/rest/v2/all 
-    >http://universities.hipolabs.com/search?country=Morocco
+    - https://restcountries.eu/rest/v2/all 
+    - http://universities.hipolabs.com/search?country=Morocco
     
     
 ![image](https://github.com/avatarvb/ng-universities-of-the-world/blob/master/UniversitiesOfTheWorld.png)
